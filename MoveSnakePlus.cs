@@ -31,7 +31,9 @@ public class MoveSnakePlus : MonoBehaviour
         {
             if (indx > 2)
             {
-                Application.LoadLevel(Application.loadedLevel);
+
+                Application.LoadLevel("main");
+
             }
         }
 

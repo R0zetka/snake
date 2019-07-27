@@ -10,7 +10,7 @@ public class border : MonoBehaviour {
 
         if (other.CompareTag("SnakeMain"))
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel("main");
         }
 
     }
